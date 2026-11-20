@@ -1,0 +1,22 @@
+---
+description: Engineering Constitution — max output, min complexity; load every coding session
+alwaysApply: true
+---
+
+# Engineering Constitution (always on)
+
+Before non-trivial implementation, load skill **`engineering-constitution`** (`SKILL.md` from this repo or `~/.cursor/skills/engineering-constitution/`).
+
+## Final principle
+
+MAXIMUM ENGINEERING VALUE. MINIMUM IMPLEMENTATION COMPLEXITY. ZERO UNJUSTIFIED COMPLEXITY.
+
+## Session defaults
+
+1. Inspect existing architecture; **reuse before rebuild**.
+2. Prefer the **smallest safe change**; no kitchen-sink diffs.
+3. No new library/service/abstraction without justification.
+4. Security by default; never ship secrets or auth bypass.
+5. Run relevant tests before claiming done.
+6. Scale process to task size.
+7. Load `standards/*.md` only for domains you touch.
